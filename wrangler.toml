@@ -1,0 +1,9 @@
+name = "sentry-ingest-relay"
+main = "./src/index.ts"
+compatibility_date = "2022-10-10"
+
+[placement]
+mode = "smart"
+
+[limits]
+cpu_ms = 50
